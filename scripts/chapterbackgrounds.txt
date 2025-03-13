@@ -1,0 +1,5 @@
+chapters
+{
+	1	"default"
+	2	"default"
+}

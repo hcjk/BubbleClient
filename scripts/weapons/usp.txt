@@ -1,0 +1,64 @@
+"USP.Draw"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"65"
+	
+	"wave"			"weapons/usp/usp_draw.wav"
+}
+
+"USP.Slideback"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.5"
+	"soundlevel"	"65"
+	
+	"wave"			"weapons/usp/usp_slideback.wav"
+}
+
+"USP.Sliderelease"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.5"
+	"soundlevel"	"65"
+	
+	"wave"			"weapons/usp/usp_sliderelease.wav"
+}
+
+"USP.Clipout"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.5"
+	"soundlevel"	"65"
+	
+	"wave"			"weapons/usp/usp_clipout.wav"
+}
+
+"USP.Clipin"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.5"
+	"soundlevel"	"65"
+	
+	"wave"			"weapons/usp/usp_clipin.wav"
+}
+
+"csgo_Weapon.WeaponMove1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.15"
+	"soundlevel"	"65"
+	
+	"wave"			"weapons/usp/movement1.wav"
+}
+
+"csgo_Weapon.WeaponMove3"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.15"
+	"soundlevel"	"65"
+	
+	"wave"			"weapons/usp/movement3.wav"
+}
+
+//By TFA and Black Stalker

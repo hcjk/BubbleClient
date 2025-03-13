@@ -1,0 +1,35 @@
+gameinfo
+{
+	game	"Backrooms All Seeing"
+	title	"Backrooms All Seeing"
+	type	"singleplayer_only"
+	FileSystem
+	{
+		steamappid	"243730"
+		SearchPaths
+		{
+			game	"|gameinfo_path|custom/*"
+			game+mod+mod_write+default_write_path	"|gameinfo_path|."
+			gamebin	"|gameinfo_path|bin"
+			game	"|all_source_engine_paths|hl2/custom/*"
+			game	"|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_pak.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_textures.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_sound_misc.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_misc.vpk"
+			game	"|all_source_engine_paths|hl2"
+			platform	"|all_source_engine_paths|platform/platform_misc.vpk"
+			platform	"|all_source_engine_paths|platform"
+		}
+	}
+	nodifficulty	"1"
+	hasportals	"0"
+	nocrosshair	"1"
+	advcrosshair	"0"
+	nomodels	"1"
+	title2	" "
+	developer	""
+	developer_url	""
+	manual	""
+	icon	"resource/icon"
+}
