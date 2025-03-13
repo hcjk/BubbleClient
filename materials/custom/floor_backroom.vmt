@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "custom/floor_backroom"
+	"$translucent" 1
+}
