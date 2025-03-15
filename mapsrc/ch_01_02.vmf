@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "10"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"chaptertitle" "Chapter 1"
 	"detailmaterial" "detail/detailsprites"
@@ -4275,20 +4275,6 @@ entity
 }
 entity
 {
-	"id" "1344"
-	"classname" "info_player_start"
-	"angles" "0 0 0"
-	"origin" "-567 564 218.991"
-	editor
-	{
-		"color" "0 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "1348"
 	"classname" "light_environment"
 	"_ambient" "43 45 57 5"
@@ -4500,6 +4486,112 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "1441"
+	"classname" "infodecal"
+	"texture" "decals/trashdecal03a"
+	"origin" "-316.36 313.895 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "1444"
+	"classname" "infodecal"
+	"texture" "decals/trashdecal04a"
+	"origin" "-689.369 6.84323 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "1447"
+	"classname" "editor_text"
+	"angles" "-0 0 0"
+	"color" "255 255 255"
+	"message" "The design is not final"
+	"textsize" "10"
+	"origin" "-528 732 113"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "1550"
+	"classname" "editor_text"
+	"angles" "-0 120 0"
+	"color" "255 255 255"
+	"message" "There might be a trigger to teleport you to other map"
+	"textsize" "8"
+	"origin" "-776 112 113"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "1566"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "255 0 0"
+	"color2" "240 0 0"
+	"effect" "0"
+	"fadein" "0"
+	"fadeout" "999999999999999999999999999999999999999999999"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "The design is not final (Made by HCJK)"
+	"spawnflags" "0"
+	"targetname" "txt2"
+	"x" "-1"
+	"y" "0"
+	"origin" "-592 564 97"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "1579"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "txt2,Display,,0,-1"
+	}
+	"origin" "-584 596 89"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
 	}
 }
 cameras
